@@ -13,7 +13,7 @@
       margin-top: 2em;
     }
     li{
-      list-style-type: none
+      list-style-type: none;
       background-color: #eaeaea;
       padding: 20px;
       width: 20%;
@@ -84,7 +84,7 @@
         var ul = document.createElement('ul');
         results.forEach(result => {
           var li = document.createElement('li');
-          
+
       li.innerHTML = `
       <img src="${result.i.imageUrl}" alt="${result.l}" style="max-width: 100px; max-height: 150px;">
       <p>Title: ${result.l}</p>
